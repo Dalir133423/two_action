@@ -1,0 +1,22 @@
+@import './font.css';
+:root {
+    --color-blue:#0085E5;
+    --color-text:#484848;
+    --color-orange:#FFA000;
+    --color-accent-bg:#FFF4E1;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    background: #fff;
+    line-height: 1.85;
+    font-family: "Cera Pro", sans-serif;
+    color: var(--color-text);
+}
+header {
+    background: var(--color-accent-bg);
+}
