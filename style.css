@@ -20,6 +20,3 @@ body {
 header {
     background: var(--color-accent-bg);
 }
-div {
-    color: #000;
-}
