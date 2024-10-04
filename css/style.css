@@ -1,10 +1,12 @@
 @import './font.css';
+
 :root {
     --color-blue:#0085E5;
     --color-text:#484848;
     --color-orange:#FFA000;
     --color-accent-bg:#FFF4E1;
 }
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -65,7 +67,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-right: 15px;
+    margin-right: auto;
 }
 
 .header-nav a {
@@ -77,8 +79,7 @@ header {
 .header-switcher {
     display: flex;
     align-items: center;
-    margin-left: auto;
-
+    margin-left: 15px;
 }
 
 .header-switcher .active  {
@@ -113,7 +114,8 @@ header {
     color: var(--color-text);
     font-size: 15px;
     margin-left: 54px;
-
+    margin-right: 0;
+    
 }
 
 .header-login img {
@@ -126,4 +128,13 @@ header {
    padding-left: 48px;
    padding-right: 48px;
    margin-left: 44px;
+}
+
+.home-gretings {
+    background-color: var(--color-accent-bg);
+    background-image: url("../img/line.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
