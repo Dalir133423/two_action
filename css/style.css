@@ -37,6 +37,7 @@ h1 {
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 25px;    
+    position: relative;
 }
 
 p {
@@ -289,3 +290,49 @@ h1 span {
     align-items: flex-start;
 }
 
+.home-gretings-label {
+    background: var(--color-orange);
+    border-radius: 10px;
+    color: white;
+    line-height: 1.71;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;   
+    padding: 5px 13px;
+}
+
+.home-greetings_info h1 .home-gretings-label {
+    right: -5px;
+    top: 5px;
+}
+
+.home-gretings--blue {
+    background: var(--color-blue);
+}
+
+.home-greetings_img {
+    position: relative;
+}
+
+.home-greetings_img .home-gretings-label {
+    left: -45px;
+    bottom: 160px;
+}
+
+.home-greetings_img .home-gretings--blue {
+    right: -90px;
+    top: 40%;
+    left: auto;
+    bottom: auto;
+}
+
+.home-gretings-label img {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 5px auto 3px;   
+} 
+
+.home-gretings_img-notebook {
+    margin-right: -100px;
+} 
