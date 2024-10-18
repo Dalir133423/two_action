@@ -443,3 +443,65 @@ button {
     line-height: 1.71;
 
 }
+
+.home-servis {
+    background: #FAFAFD;
+    padding: 74px 0;    
+}
+
+.home-servis h4 {
+    margin-top: 0;
+    margin-bottom: 38px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.home-servis_wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.home-servis_item {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 34px 38px;
+}
+
+.home-servis-item_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.home-servis-item_icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-blue);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-servis-item_icon img {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.home-servis-item_order {
+    font-size: 13px;
+    line-height: 1.38;
+    padding: 9px 19px;
+    border: 1px solid #CBCBCB33;
+    border-radius: 20px;
+
+} 
+
+.home-servis-item_order span {
+    font-weight: 500;
+    color: var(--color-blue);
+}
