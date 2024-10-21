@@ -61,6 +61,23 @@ button {
     text-align: center;
     cursor: pointer;
 }
+.button--block {
+    display: block;
+}
+
+.button--orange {
+    background: var(--color-orange);
+}
+
+.button--light-orange {
+    background: var(--color-light-orange);
+    color: var(--color-orange);
+}
+
+.button--blue-light {
+    background: var(--color-light-blue);
+    color: var(--color-blue);
+}
 
 .container {
     max-width: 1440px;
@@ -467,6 +484,9 @@ button {
     background: white;
     border-radius: 20px;
     padding: 30px 34px 38px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
 }
 
 .home-servis-item_header {
@@ -498,10 +518,74 @@ button {
     padding: 9px 19px;
     border: 1px solid #CBCBCB33;
     border-radius: 20px;
-
 } 
 
 .home-servis-item_order span {
     font-weight: 500;
     color: var(--color-blue);
+}
+
+.home-servis_item h5 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--color-text);
+    line-height: 1.2;
+    /* border: 1px solid #CBDEF0;  */
+}
+
+.home-servis_item p {
+    font-weight: 400px;
+    font-size: 13px;
+    color: var(--color-text);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.home-servis_item ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.home-servis_item ul li {
+    margin-bottom: 5px;
+    font-size: 13px;
+    line-height: 1.28;
+}
+
+.home-servis_item ul li:last-child {
+    margin-bottom: 0;
+}
+
+.home-servis_item ul li span {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-blue);
+}
+
+.home-servis_item ul li img {
+    width: 10px;
+}
+
+.home-servis_item .button {
+    margin-top: auto;   
+}
+
+.home-servis_item:hover {
+    box-shadow: 0px 10px 30px 0px #1D1D1D0A;
+    box-shadow: 0px 10px 50px 0px #7575750F;
+    cursor: pointer;
+}
+
+.home-servis_item:hover .home-servis-item_icon {
+    background: var(--color-blue);
+    box-shadow: 0px 9px 20px 0px #0062A933;
+} 
+
+.home-servis_item:hover .button {
+    background: var(--color-blue);
+    color: white;
 }
