@@ -618,3 +618,89 @@ button {
     background: var(--color-orange);
     color: white;
 }
+
+.home-chanels {
+    padding: 70px 0 74px;
+}
+
+.home-chanels-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.home-chanels-header h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+
+.home-chanels-header a {
+    background: #F8F8FD;
+    border-radius: 10px;
+    padding: 8px 22px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.66;
+    display: inline-flex;
+    align-items: center;
+}
+
+.home-chanels-header a img {
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin-right: 8px;
+}
+
+.home-chanels_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px 34px;
+}
+
+.home-chanels_item {
+    box-shadow: 0px 10px 30px 0px #1D1D1D0A;
+    box-shadow: 0px 10px 50px 0px #7575750F;
+    background: #ffffff;
+    border-radius: 20px;
+    color: var(--color-text);
+}
+
+.home-servis-item-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 26px 26px;
+}
+
+.home-servis-item-header img {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.home-servis-item-header h5 {
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+}
+
+.home-servis-item-header p {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.38;
+}
+
+.home-servis-item-header p span {
+
+    font-weight: 500;
+    color: #0186E6;
+}
