@@ -718,7 +718,6 @@ button {
 .home-chanels-item-orders-text {
     flex: 0 0 67%;
     min-width: 67%;
-
 }
 
 .home-chanels-item-orders-text b {
@@ -761,7 +760,12 @@ button {
 
 .home-chanels-orders-progress-bar {
     flex: 0 0 33%;
+    position: relative;
     min-width: 33%;
+}
+
+.home-chanels-orders-progress-bar .progress-bar {
+    margin-left: auto;
 }
 
 .home-chanels-item-clients {
@@ -790,3 +794,28 @@ button {
     opacity: 0.8;
 }
 
+.home-chanels-clients-progress-bar {
+    flex: 0 0 33%;
+    min-width: 33%;
+    position: relative;
+}
+
+.home-chanels-clients-progress-bar::before, .home-chanels-orders-progress-bar::before  {
+    content: "";                   
+    display: block;
+    width: 1px;
+    height: 64px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    background: #0186E633;
+    transform: translateY(-50%);
+}
+
+.home-chanels-clients-progress-bar::before {
+    background: #F2F2F6;
+}
+
+.home-chanels-clients-progress-bar .progress-bar {
+    margin-left: auto;
+}

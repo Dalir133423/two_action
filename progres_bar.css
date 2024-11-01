@@ -1,0 +1,19 @@
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, white 89%, transparent 80% 100%),
+    conic-gradient(#FFA00038 25%,#FFA000 25%);
+}
+
+.progress-bar::before {
+    content: attr(data-progress);
+}
+
+.progress-bar--blue {
+    background: radial-gradient(closest-side, white 85%, transparent 80% 100%),
+    conic-gradient(#FFFFFF 5%,#0085E5 75%);
+}
