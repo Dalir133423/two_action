@@ -6,8 +6,8 @@
     width: 62px;
     border-radius: 50%;
     background: radial-gradient(closest-side, white 89%, transparent 80% 100%),
-    conic-gradient(#FFA00038 25%,#FFA000 25%);
-}
+    conic-gradient(#FFA00038 25%, #FFA000 25%);
+}   
 
 .progress-bar::before {
     content: attr(data-progress);
@@ -16,4 +16,14 @@
 .progress-bar--blue {
     background: radial-gradient(closest-side, white 85%, transparent 80% 100%),
     conic-gradient(#FFFFFF 5%,#0085E5 75%);
+}
+
+.progress-bar--white {
+    background: radial-gradient(closest-side, #0085E5 85%, transparent 80% 100%),
+    conic-gradient(#FFFFFF52 25%, #fff 25%);
+}
+
+.home-channels-item--orange .progress-bar--white {
+    background: radial-gradient(closest-side, #FFA000 85%, transparent 80% 100%),
+    conic-gradient(#FFFFFF52 25%, #fff 25%);
 }

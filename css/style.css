@@ -461,12 +461,12 @@ button {
 
 }
 
-.home-servis {
+.home-service {
     background: #FAFAFD;
     padding: 74px 0;    
 }
 
-.home-servis h4 {
+.home-service h4 {
     margin-top: 0;
     margin-bottom: 38px;
     font-weight: 500;
@@ -474,13 +474,13 @@ button {
     line-height: 1.33;
 }
 
-.home-servis_wrap {
+.home-service_wrap {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
 }
 
-.home-servis_item {
+.home-service-item {
     background: white;
     border-radius: 20px;
     padding: 30px 34px 38px;
@@ -489,14 +489,14 @@ button {
     /* justify-content: end; */
 }
 
-.home-servis-item_header {
+.home-service-item_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 22px;
 }
 
-.home-servis-item_icon {
+.home-service-item_icon {
     width: 40px;
     height: 40px;
     border: 1px solid var(--color-blue);
@@ -506,13 +506,13 @@ button {
     justify-content: center;
 }
 
-.home-servis-item_icon img {
+.home-service-item_icon img {
     display: block;
     width: 16px;
     height: 16px;
 }
 
-.home-servis-item_order {
+.home-service-item_order {
     font-size: 13px;
     line-height: 1.38;
     padding: 9px 19px;
@@ -520,12 +520,12 @@ button {
     border-radius: 20px;
 } 
 
-.home-servis-item_order span {
+.home-service-item_order span {
     font-weight: 500;
     color: var(--color-blue);
 }
 
-.home-servis_item h5 {
+.home-service-item h5 {
     margin-top: 0;
     margin-bottom: 22px;
     font-weight: 500;
@@ -535,7 +535,7 @@ button {
     /* border: 1px solid #CBDEF0;  */
 }
 
-.home-servis_item p {
+.home-service-item p {
     font-weight: 400px;
     font-size: 13px;
     color: var(--color-text);
@@ -543,101 +543,101 @@ button {
     margin-bottom: 30px;
 }
 
-.home-servis_item ul {
+.home-service-item ul {
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 25px;
     margin-top: 0;
 }
 
-.home-servis_item ul li {
+.home-service-item ul li {
     margin-bottom: 5px;
     font-size: 13px;
     line-height: 1.28;
 }
 
-.home-servis_item ul li:last-child {
+.home-service-item ul li:last-child {
     margin-bottom: 0;
 }
 
-.home-servis_item ul li span {
+.home-service-item ul li span {
     font-weight: 500;
     font-size: 14px;
     color: var(--color-blue);
 }
 
-.home-servis_item ul li img {
+.home-service-item ul li img {
     width: 10px;
 }
 
-.home-servis_item .button {
+.home-service-item .button {
     margin-top: auto;   
 }
 
-.home-servis_item:hover {
+.home-service-item:hover {
     box-shadow: 0px 10px 30px 0px #1D1D1D0A;
     box-shadow: 0px 10px 50px 0px #7575750F;
     cursor: pointer;
 }
 
-.home-servis_item:hover .home-servis-item_icon {
+.home-service-item:hover .home-service-item_icon {
     background: var(--color-blue);
     box-shadow: 0px 9px 20px 0px #0062A933;
 } 
 
-.home-servis_item:hover .button {
+.home-service-item:hover .button {
     background: var(--color-blue);
     color: white;
 }
 
-.home-servis-item--orange  .home-servis-item_icon {
+.home-service-item--orange  .home-service-item_icon {
     border: 1px solid var(--color-orange);
 }
 
-.home-servis-item--orange:hover .home-servis-item_icon {
+.home-service-item--orange:hover .home-service-item_icon {
     background: var(--color-orange); 
 }
 
-.home-servis-item--orange .home-servis-item_order span, .home-servis-item--orange ul li span {
+.home-service-item--orange .home-service-item_order span, .home-service-item--orange ul li span {
     color: var(--color-orange);
 }
 
-.home-servis-item_icon .home-servis-item_img-hover {
+.home-service-item_icon .home-service-item_img-hover {
     display: none;
 }
 
-.home-servis_item:hover .home-servis-item_icon .home-servis-item_img {
+.home-service-item:hover .home-service-item_icon .home-service-item_img {
     display: none
 }
 
-.home-servis_item:hover .home-servis-item_icon .home-servis-item_img-hover {
+.home-service-item:hover .home-service-item_icon .home-service-item_img-hover {
     display: block
 }
 
-.home-servis-item--orange:hover .button {
+.home-service-item--orange:hover .button {
     background: var(--color-orange);
     color: white;
 }
 
-.home-chanels {
+.home-channels {
     padding: 70px 0 74px;
 }
 
-.home-chanels-header {
+.home-channels-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 32px;
 }
 
-.home-chanels-header h3 {
+.home-channels-header h3 {
     margin: 0;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.33;
 }
 
-.home-chanels-header a {
+.home-channels-header a {
     background: #F8F8FD;
     border-radius: 10px;
     padding: 8px 22px;
@@ -648,20 +648,20 @@ button {
     align-items: center;
 }
 
-.home-chanels-header a img {
+.home-channels-header a img {
     width: 14px;
     height: 14px;
     display: block;
     margin-right: 8px;
 }
 
-.home-chanels_grid {
+.home-channels_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 26px 34px;
 }
 
-.home-chanels_item {
+.home-channels-item {
     box-shadow: 0px 10px 30px 0px #1D1D1D0A;
     box-shadow: 0px 10px 50px 0px #7575750F;
     background: #ffffff;
@@ -669,7 +669,7 @@ button {
     color: var(--color-text);
 }
 
-.home-servis-item-header {
+.home-channels-item_header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -677,14 +677,14 @@ button {
     padding: 32px 26px 26px;
 }
 
-.home-servis-item-header img {
+.home-channels-item_header img {
     width: 66px;
     height: 66px;
     margin-bottom: 18px;
     display: block;
 }
 
-.home-servis-item-header h5 {
+.home-channels-item_header h5 {
     margin-bottom: 4px;
     margin-top: 0;
     font-size: 18px;
@@ -692,19 +692,19 @@ button {
     line-height: 1.22;
 }
 
-.home-servis-item-header p {
+.home-channels-item_header p {
     margin-top: 0;
     font-size: 13px;
     font-weight: 400;
     line-height: 1.38;
 }
 
-.home-servis-item-header p span {
+.home-channels-item_header p span {
     font-weight: 500;
     color: #0186E6;
 }
 
-.home-chanels-orders {
+.home-channels-item_orders {
     box-shadow: 0px 0px 20px 0px #00000014;
     border-radius: 6px;
     padding: 21px 27px 21px 36px;
@@ -713,14 +713,15 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #fff;
 }
 
-.home-chanels-item-orders-text {
+.home-channels-item_orders-text {
     flex: 0 0 67%;
     min-width: 67%;
 }
 
-.home-chanels-item-orders-text b {
+.home-channels-item_orders-text b {
     display: block;
     font-size: 15px;
     font-weight: 500;
@@ -728,13 +729,13 @@ button {
     margin-bottom: 7px;
 }
 
-.home-chanels-item-orders-text ul {
+.home-channels-item_orders-text ul {
     padding: 0;
     list-style: none;
     margin: 0;
 }
 
-.home-chanels-item-orders-text ul li {
+.home-channels-item_orders-text ul li {
     margin-bottom: 3px;
     font-size: 13px;
     line-height: 1.38;
@@ -742,7 +743,7 @@ button {
     position: relative;
 }
 
-.home-chanels-item-orders-text ul li::before {
+.home-channels-item_orders-text ul li::before {
     content: "";
     display: block;
     width: 6px;
@@ -754,21 +755,21 @@ button {
     top: 6px;
 }
 
-.home-chanels-item-orders-text ul li:last-child::before {
+.home-channels-item_orders-text ul li:last-child::before {
     background: #FFA00038;
 }
 
-.home-chanels-orders-progress-bar {
+.home-channels-item_orders-progress-bar {
     flex: 0 0 33%;
     position: relative;
     min-width: 33%;
 }
 
-.home-chanels-orders-progress-bar .progress-bar {
+.home-channels-item_orders-progress-bar .progress-bar {
     margin-left: auto;
 }
 
-.home-chanels-item-clients {
+.home-channels-item_clients {
     border-radius: 6px;
     padding: 19px 25px 25px 32px;
     display: flex;
@@ -776,31 +777,31 @@ button {
     justify-content: space-between;
 }
 
-.home-chanels-item-clients-text {
+.home-channels-item_clients-text {
     flex: 0 0 67%;
     min-width: 67%;
     color: var(--color-text);
 }
 
-.home-chanels-item-clients-text p {
+.home-channels-item_clients-text p {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 5px;
 }
 
-.home-chanels-item-clients-text p:last-child {
+.home-channels-item_clients-text p:last-child {
     color: var(--color-text);
     opacity: 0.8;
 }
 
-.home-chanels-clients-progress-bar {
+.home-channels-item_clients-progress-bar {
     flex: 0 0 33%;
     min-width: 33%;
     position: relative;
 }
 
-.home-chanels-clients-progress-bar::before, .home-chanels-orders-progress-bar::before  {
+.home-channels-item_clients-progress-bar::before, .home-channels-item_orders-progress-bar::before  {
     content: "";                   
     display: block;
     width: 1px;
@@ -812,10 +813,68 @@ button {
     transform: translateY(-50%);
 }
 
-.home-chanels-clients-progress-bar::before {
+.home-channels-item_clients-progress-bar::before {
     background: #F2F2F6;
 }
 
-.home-chanels-clients-progress-bar .progress-bar {
+.home-channels-item_clients-progress-bar .progress-bar {
     margin-left: auto;
+}
+
+.home-channels-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-channels-footer .button {
+    padding: 14px 62px;
+}
+
+.home-channels-item--blue {
+    text-shadow: none;
+    border: 1px solid #0186E633
+}
+
+.home-channels-item--blue .home-channels-item_orders {
+    background: var(--color-blue);
+    color: white;
+
+}
+
+.home-channels-item--blue .home-channels-item_orders ul li::before {
+    background: white;
+}
+
+.home-channels-item--blue .home-channels-item_orders ul li:last-child::before {
+    opacity: 32%;
+}
+
+.home-channels-item--blue .home-channels-item_orders-progress-bar::before {
+    background: white;
+}
+
+.home-channels-groupe {
+    background: #FAFAFD;
+}
+
+.home-channels-item--orange {
+    box-shadow: none;
+}
+
+.home-channels-item--orange .home-channels-item_orders {
+    background: var(--color-orange);
+    color: #fff;
+
+}
+
+.home-channels-item--orange .home-channels-item_orders ul li::before {
+    background: white;
+}
+
+.home-channels-item--orange .home-channels-item_orders ul li:last-child::before {
+    opacity: 32%;
+}
+
+.home-channels-item--orange .home-channels-item_orders-progress-bar::before {
+    background: white;
 }
