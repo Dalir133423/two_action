@@ -734,6 +734,10 @@ button {
     list-style: none;
     margin: 0;
 }
+ 
+.home-channels-groupe .home-channels-header a {
+    background: white;
+}
 
 .home-channels-item_orders-text ul li {
     margin-bottom: 3px;
@@ -878,3 +882,103 @@ button {
 .home-channels-item--orange .home-channels-item_orders-progress-bar::before {
     background: white;
 }
+/* [sb=s] */
+.home-revievs-header h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+
+.home-revievs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.home-revievs-header {
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-revievs-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+   
+}
+
+.home-revievs-label button {
+    padding: 4px 26px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+
+}
+.home-revievs-item {
+    width: 326px;
+    height: 390px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px solid #CBCBCB66;    
+    padding: 34px;
+    transition: 0.3s;
+}
+
+.home-revievs-item-info img {
+    display: block;
+    margin-top: 34px;
+} 
+
+.home-revievs-item-info b {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    margin-top: 18px;
+}
+
+.home-revievs-item-info p {
+    margin-top: 18px;
+    width: 239px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.home-revievs-footer {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-revievs-footer-static {
+    display: flex;
+}
+
+.home-revievs-footer-static-item {
+    width: 56px;
+    height: 56px;
+    background: var(--color-blue);
+    /* border-radius: 50%; */
+    padding-left: 19px;
+    
+}
+
+.home-revievs-footer-static-item span {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.38s;
+    padding: 0;
+}
+
+
+.home-revievs-item:hover, button {
+    color: white;
+    background: var(--color-blue);
+    border: white 1px solid;
+}
+
