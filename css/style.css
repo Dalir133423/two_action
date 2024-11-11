@@ -882,56 +882,97 @@ button {
 .home-channels-item--orange .home-channels-item_orders-progress-bar::before {
     background: white;
 }
-/* [sb=s] */
-.home-revievs-header h4 {
+
+.home-reviews {
+    padding: 74px 0 60px;
+}
+
+.home-reviews h4 {
     font-size: 24px;
     font-weight: 500;
     line-height: 1.33;
+    margin-bottom: 48px;
+    text-align: center;
+    margin-top: 0;
 }
 
-.home-revievs-grid {
+.home-reviews-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
 }
 
-.home-revievs-header {
-    margin-top: 74px;
+.home-reviews-item {
+    border-radius: 20px;
+    border: 1px solid #CBCBCB66;    
+    padding: 30px 34px 34px;
+    transition: 0.5s;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.home-revievs-item-header {
+.home-reviews-item-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
-   
+    align-items: center;
+    margin-bottom: 30px;    
 }
 
-.home-revievs-label button {
-    padding: 4px 26px;
+.home-reviews-item-rating {
+    display: flex;
+    align-items: center;
+    color: var(--color-blue);
+    font-weight: 500;
+}
+
+.home-reviews-item-rating span {
+    display: block;
+    margin-left: 4px;
+    line-height: 1;
+}
+
+.home-reviews-item-rating-star--white {
+    display: none;
+}
+
+.home-reviews-item-rating-star--blue {
+    display: block;
+}
+
+.home-reviews-item:hover .home-reviews-item-rating span {
+    color: white;
+}
+
+.home-reviews-item:hover .home-reviews-item-rating-star--blue {
+    display: none;
+}
+
+.home-reviews-item:hover .home-reviews-item-rating-star--white {
+    display: block;
+}
+
+.home-reviews-item-label {
+    padding: 3px 25px;
     font-size: 13px;
     font-weight: 500;
     line-height: 18px;
     text-align: center;
-
-}
-.home-revievs-item {
-    width: 326px;
-    height: 390px;
-    gap: 0px;
-    border-radius: 20px;
-    border: 1px solid #CBCBCB66;    
-    padding: 34px;
-    transition: 0.3s;
+    border: 1px solid var(--color-blue);
 }
 
-.home-revievs-item-info img {
+.home-reviews-item:hover .home-reviews-item-label {
+    border-color: #fff;
+}
+
+.home-reviews-item-info {
+    margin-bottom: 35px;
+}
+
+.home-reviews-item-info img {
     display: block;
-    margin-top: 34px;
 } 
 
-.home-revievs-item-info b {
+.home-reviews-item-info b {
     display: block;
     font-size: 18px;
     font-weight: 500;
@@ -939,46 +980,147 @@ button {
     margin-top: 18px;
 }
 
-.home-revievs-item-info p {
+.home-reviews-item-info p {
     margin-top: 18px;
-    width: 239px;
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: 400;
     line-height: 1.71;
+    margin-bottom: 0;
 }
 
-.home-revievs-footer {
-    margin-top: 35px;
+.home-reviews-item-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.home-reviews-item-stats  {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.home-reviews-item-stats li {
+    border: 2px solid #ffffff;
+    width: 56px;
+    height: 56px;
+    color: white;
+    background-color: var(--color-blue);
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+.home-reviews-item-stats li:last-child {
+    margin-left: -8px;
+}
+
+.home-reviews-item:hover .home-reviews-item-stats li {
+    border: 2px solid var(--color-blue);
+    color: var(--color-blue);
+    background-color: white;
+}
+
+.home-reviews-item-stats li img {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
+}
+
+.home-reviews-item-stats-icon {
+    display: block;
+}
+
+.home-reviews-item-stats-icon-hover {
+    display: none;
+}
+
+.home-reviews-item:hover .home-reviews-item-stats-icon {
+    display: none;
+}
+
+.home-reviews-item:hover .home-reviews-item-stats-icon-hover {
+    display: block;
+}
+
+.home-reviews-item-stats li span {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.38;
+}
+
+.home-reviews-static-img {
+    padding: 5px 21px 0px 21px;  
+}
+
+.home-reviews-item:hover {
+    color: white;
+    background: var(--color-blue);
+}
+
+.home-reviews-staic--orange {
+    background: var(--color-orange);
+}
+
+.home-reviews-item-footer time {
+    color: var(--color-blue);
+}
+
+.home-reviews-item:hover .home-reviews-item-footer time {
+    color: white;
+}
+
+.home-reviews-item-stats--orange li:last-child {
+    background: var(--color-orange);
+}
+
+.home-steps  .container {
+    padding:  52px 108px;
+    background: #FFF4E1;
+    border-radius: 60px;
+}
+
+.home-steps--with-bg {
+    position: absolute;
+}
+
+.home-steps-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.home-revievs-footer-static {
-    display: flex;
-}
-
-.home-revievs-footer-static-item {
-    width: 56px;
-    height: 56px;
-    background: var(--color-blue);
-    /* border-radius: 50%; */
-    padding-left: 19px;
-    
-}
-
-.home-revievs-footer-static-item span {
-    display: block;
-    font-size: 13px;
+.home-steps-header h5 {
+    font-size: 24px;
     font-weight: 500;
-    line-height: 1.38s;
     padding: 0;
+    margin: 0;
 }
 
+.home-steps-header div img {
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    font-weight: 500;
+    line-height: 1.28;
 
-.home-revievs-item:hover, button {
-    color: white;
-    background: var(--color-blue);
-    border: white 1px solid;
 }
 
+.home-steps-header div {
+    display: flex;
+    align-items: center;
+}
+
+.home-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
