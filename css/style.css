@@ -16,7 +16,7 @@
 body {
     margin: 0;
     font-size: 14px;
-    background: #fff;
+    background: #FFF;
     line-height: 1.85;
     font-family: "Cera Pro", sans-serif;
     color: var(--color-text);
@@ -1083,20 +1083,34 @@ button {
     background: var(--color-orange);
 }
 
-.home-steps  .container {
-    padding:  52px 108px;
-    background: #FFF4E1;
-    border-radius: 60px;
-}
+
+/* home-steps */
+
+
+.home-steps {
+    padding-bottom: 86px;
+    padding-top: 60px;
+} 
 
 .home-steps--with-bg {
-    position: absolute;
+    padding:  52px 108px;
+    border-radius: 60px;
+    position: relative;
+    background: #FFF4E1 url('../img/steps/linear.png') no-repeat center;
+    background-size: 100%;
 }
 
 .home-steps-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 44px;
+}
+
+.home-steps-header div span {
+    margin-right: 8px;
+    display: block;
+
 }
 
 .home-steps-header h5 {
@@ -1109,10 +1123,23 @@ button {
 .home-steps-header div img {
     width: 50px;
     height: 50px;
-    padding-left: 5px;
     font-weight: 500;
     line-height: 1.28;
+}
 
+.home-steps-img-fire {
+    position: relative;
+}
+
+.home-steps-img-fire::before {
+    content: "37";
+    position: absolute;
+    left: 17px;
+    top:22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42;
+    color: #ffffff;
 }
 
 .home-steps-header div {
@@ -1123,4 +1150,183 @@ button {
 .home-steps-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 46px;
+    gap: 40px;
 }
+
+.home-steps-grid-item {
+    background: white;
+    text-align: center;
+    padding: 24px 38px 40px 38px;
+    box-shadow: 0px 1.75px 9.39px 0px #DD79001D,
+                0px 14px 75px 0px #DD79003B;
+    border-radius: 20px;
+}
+
+.home-steps-grid-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-steps-grid-item span {
+    color: var(--color-blue);
+    font-size: 13px;
+    font-size: 1.69;
+    margin-bottom: 5px;
+}
+
+.home-steps-grid-item p {
+    line-height: 1.77;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.home-steps-grid-item b {
+    display: block;
+}
+
+.home-steps-footer {
+   display: flex;
+   justify-content: center;
+}
+
+.home-steps-footer button {
+    color: white;
+    background: var(--color-orange);
+    padding: 13px 45px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42;
+}
+
+.home-steps-2 {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.home-steps-2 h5 {
+    font-size: 24px;
+    line-height: 1.33;
+    font-weight: 500;
+    margin-bottom: 58px;
+    margin-top: 0;
+}
+
+.home-steps-2-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+}
+
+.home-steps-2-grid-item {   
+    background-color:  #fff;
+    box-shadow: 0px 10px 30px 0px #1D1D1D0A,
+                0px 10px 50px 0px #7575750F;
+    border-radius: 15px;
+
+}
+
+.home-steps-2-grid-item--1 {
+    padding: 24px 47px 41px 47px;
+} 
+
+.home-steps-2-grid-item--2 , .home-steps-2-grid-item--4  {
+    padding: 24px 62px 41px 62px;
+
+}
+
+.home-steps-2-grid-item--3 {
+    padding: 24px 54px 40px 54px;
+}
+
+.home-steps-2-grid-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 12px;
+}
+
+.home-steps-2-grid-item span {
+    color: var(--color-blue);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.69;
+    margin-bottom: 9px;
+}
+
+.home-steps-2-grid-item  b {
+    display: block;
+}
+
+.home-steps-2-grid-item  p {
+    margin: 0;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 1.77;
+}
+
+.home-join {
+    padding-top: 90px;
+    padding-bottom: 92px;
+}
+
+.home-join-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 63px;
+}
+
+.home-join-grid-item {
+    display: flex;
+    /* padding: 42px 0 42px 50px; */
+    background: #FFF4E1 url(../img/big-biggy-bank.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    border-radius: 20px;
+    position: relative;
+}
+
+.home-join-grid-item:last-child {
+    background: #0085E50A;
+
+}
+
+.home-join-grid-item-info {
+    padding: 42px 0 42px 50px;
+}
+
+.home-join-grid-item-info span {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.36;
+    display: block;
+    /* position: absolute; */
+    max-width: 70%;
+    padding-right: 128px;
+}
+
+.home-join-grid-item-info button {
+    text-align: center;
+    padding: 12px 49px;
+    margin-top: 35px;
+}
+
+.home-join-grid-item-img {
+    padding: 15px 3px 15px 0;
+    width: 312px;
+    height: 214px;
+    background: url(../img/big-biggy-bank.png) no-repeat;
+    background-size: contain; 
+    margin-right:auto ;
+}
+
+/* .home-join-grid-item-img img {
+    display: block;
+    position: absolute;
+    z-index: 1111;
+    width: 100%;   
+} */
+
+
