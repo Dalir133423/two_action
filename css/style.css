@@ -1280,53 +1280,53 @@ button {
 
 .home-join-grid-item {
     display: flex;
-    /* padding: 42px 0 42px 50px; */
-    background: #FFF4E1 url(../img/big-biggy-bank.png) no-repeat;
-    background-size: contain;
-    background-position: right;
-    border-radius: 20px;
+    color: #fff;
+    background: #FFF4E1;
     position: relative;
-}
-
-.home-join-grid-item:last-child {
-    background: #0085E50A;
-
+    justify-content: space-between;
+    color: #263238;
+    border-radius: 20px;
 }
 
 .home-join-grid-item-info {
-    padding: 42px 0 42px 50px;
+    padding: 42px 0 43px 50px;
 }
 
-.home-join-grid-item-info span {
+
+.home-join-grid-item-info p {
+    display: block;
+    position: absolute;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.36;
-    display: block;
-    /* position: absolute; */
-    max-width: 70%;
-    padding-right: 128px;
+    padding: 0 303px 35px 10px;
 }
 
 .home-join-grid-item-info button {
-    text-align: center;
-    padding: 12px 49px;
-    margin-top: 35px;
+    padding: 13px 48px;
+    margin-top: 95px;
+}
+
+
+.home-join-grid-item-img img {
+    opacity: 0;
 }
 
 .home-join-grid-item-img {
-    padding: 15px 3px 15px 0;
-    width: 312px;
-    height: 214px;
-    background: url(../img/big-biggy-bank.png) no-repeat;
-    background-size: contain; 
-    margin-right:auto ;
+    background: url(../img/big-biggy-bank.png) bottom;
 }
 
-/* .home-join-grid-item-img img {
-    display: block;
-    position: absolute;
-    z-index: 1111;
-    width: 100%;   
-} */
 
+.home-join-grid-item:last-child .home-join-grid-item-img {
+    background: url(../img/meeting.png) bottom;
+    margin-left: -76px;
+    margin-top: 0;
+}
 
+.home-join-grid-item:last-child p {
+    padding-right: 236px;
+}
+
+.home-join-grid-item:last-child{
+    background: #0085E50A;
+}
