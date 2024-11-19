@@ -17,3 +17,13 @@
     font-weight: 500;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraProBold.eot');
+    src: url('../fonts/CeraProBold.eot') format('embedded-opentype'),
+    url('../fonts/CeraProBold.woff') format('woff'),
+    url('../fonts/CeraProBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
